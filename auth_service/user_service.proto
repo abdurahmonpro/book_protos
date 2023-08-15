@@ -10,5 +10,5 @@ service UserService {
     rpc GetByID(UserPK) returns (User) {}
     rpc GetUserList(UserListRequest) returns (UserListResponse) {}
     rpc CheckUser(CheckUserRequest) returns (CheckUserResponse) {}
-    rpc GetUserByName(GetByName) returns (User) {}
+    rpc GetUserByName(GetByName ) returns (User) {}
 }
